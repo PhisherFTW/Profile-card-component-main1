@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: hsl(185, 75%, 39%);
+    padding-top: 10rem;
+    overflow: hidden
+}
+#img1 {
+    position: absolute;
+    margin: 0 auto;
+    top: -500px;
+    bottom: 0;
+    left: -1000px;
+    right: 0;
+    z-index: -100;
+}
+#img2 {
+    position: absolute;
+    margin: 0 auto;
+    top: 300px;
+    bottom: 0;
+    left: 0;
+    right: -1000px;
+    z-index: -101;
+}
+hr {
+    opacity: 0.3;
+}
+#card-body {
+    text-align: center;
+    width: 20rem;
+    height: 20.5rem;
+    border-radius: 15px;
+    background-color: white;
+}
+.profile-info img {
+    position: absolute;
+    margin: 0 auto;
+    top: 240px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: 4px white solid;
+}
+.profile-info h3 span {
+    font-weight: 100;
+}
+.stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0 1rem;
+}
+.stats h3 {
+    margin: 0;
+}
+.stats p {
+    margin: 0.2rem;
+}
+.topcard {
+    height: 10rem;
+}
+.topcard img {
+    width: 20rem;
+    height: 7rem;
+    border-radius:15px 15px 0 0;
+}
