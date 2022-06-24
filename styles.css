@@ -3,7 +3,8 @@ body {
     justify-content: center;
     background-color: hsl(185, 75%, 39%);
     padding-top: 10rem;
-    overflow: hidden
+    overflow: hidden;
+    font-family: 'Kumbh Sans', sans-serif;
 }
 #img1 {
     position: absolute;
@@ -46,6 +47,7 @@ hr {
     border: 4px white solid;
 }
 .profile-info h3 span {
+    text-decoration: none;
     font-weight: 100;
 }
 .stats {
